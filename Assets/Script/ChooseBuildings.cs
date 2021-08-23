@@ -59,10 +59,10 @@ public class ChooseBuildings : MonoBehaviour
             ThisBuilding.GetComponent<Outline>().enabled = true;
 
             ScriptText.text = "Tavern, also named Popina, was a type of wine bar generally visited by lower-classes and slaves, and was simply furnished with stools and tables. " +
-                "Because it was associated with gambling and prostitution, the popina was seen by respectable Romans as places of crime and violence." +
+                "There had a limited menu of simple foods (olives, bread, stews) and selection of wines of varying quality. " +
                 "\r\n" +
-                "\r\n" +
-                " ";
+                "Because it was associated with gambling and prostitution, the popina was seen by respectable Romans as places of crime and violence. " +
+                "Although gambling with dice was illegal, it would appear from the large number of dice found at cities like Pompeii that most people ignored this law. ";
         }
         else if (BuildingName == "Principia")
         {
@@ -70,10 +70,11 @@ public class ChooseBuildings : MonoBehaviour
             ThisBuilding = BuildingsControl.GetPrincipia();
             ThisBuilding.GetComponent<Outline>().enabled = true;
 
-            ScriptText.text = "You've choose the Principia." +
+            ScriptText.text = "Principia was the central plaza or headquarters in a Roman fort. " +
+                "The central part of the headquarters was occupied by a vast internal courtyard, which was just an empty space to express loyalty to the emperor and his family, military discipline, and those elements of Roman religiosity." +
                 "\r\n" +
-                "\r\n" +
-                "You've choose the Principia.";
+                "When the day starts at daybreak, the soldiers arose at this time and shortly after collected in the company area for breakfast and assembly. " +
+                "The centurions were up before them and off to the principia where they and the equites were required to assemble.";
         }
         else if (BuildingName == "Walls")
         {
@@ -81,10 +82,7 @@ public class ChooseBuildings : MonoBehaviour
             ThisBuilding = BuildingsControl.GetWalls();
             ThisBuilding.GetComponent<Outline>().enabled = true;
 
-            ScriptText.text = "You've choose the Walls." +
-                "\r\n" +
-                "\r\n" +
-                "You've choose the Walls.";
+            ScriptText.text = "Vindolanda was a small city, so the city walls only have two gates.";
         }
         else if (BuildingName == "Praetorium")
         {
@@ -92,10 +90,11 @@ public class ChooseBuildings : MonoBehaviour
             ThisBuilding = BuildingsControl.GetPraetorium();
             ThisBuilding.GetComponent<Outline>().enabled = true;
 
-            ScriptText.text = "You've choose the Praetorium." +
+            ScriptText.text = "Praetorium originally referred to a general's tent in a Roman fort and derived from the title praetor, which referred to a Roman magistrate. " +
+                "The war-council meetings held in a general's tent gave administrative and juridical meanings to the term \"Praetorium\", a usage continued into the Byzantine Empire, where the term identified the residence of the governor of a city." +
                 "\r\n" +
-                "\r\n" +
-                "You've choose the Praetorium.";
+                "Most praetoriums had areas surrounding them delegated for exercise and drills conducted by the troops. " +
+                "The area ahead of the camp would be occupied by the tents housing the commander's soldiers.";
         }
         else if (BuildingName == "Temple")
         {
@@ -103,10 +102,11 @@ public class ChooseBuildings : MonoBehaviour
             ThisBuilding = BuildingsControl.GetTemple();
             ThisBuilding.GetComponent<Outline>().enabled = true;
 
-            ScriptText.text = "You've choose the Temple." +
+            ScriptText.text = "Ancient Roman temples were the most important buildings in Roman culture, though only a few survive in any sort of complete state. " +
+                "Today they remain \"the most obvious symbol of Roman architecture\". No matter how small the town was, they had to have at least one main temple. " +
                 "\r\n" +
-                "\r\n" +
-                "You've choose the Temple.";
+                "Public religious ceremonies of the official Roman religion took place outdoors and not within the temple building. " +
+                "Some ceremonies were processions that started at, visited, or ended with a temple or shrine, where a ritual object might be stored and brought out for use, or where an offering would be deposited.";
         }
         else if (BuildingName == "Horrea 1" || BuildingName == "Horrea 2")
         {
@@ -119,10 +119,8 @@ public class ChooseBuildings : MonoBehaviour
 
             ThisBuilding.GetComponent<Outline>().enabled = true;
 
-            ScriptText.text = "You've choose the Horrea." +
-                "\r\n" +
-                "\r\n" +
-                "You've choose the Horrea.";
+            ScriptText.text = "Horreum (plural: horrea) was a type of public warehouse. " +
+                "Although the Latin term is often used to refer to granaries, Roman horreum was used to store many types of essentials such as olive oil, wine, food, clothing, and even marble. ";
         }
         else if (BuildingName == "Bath House")
         {
@@ -130,10 +128,10 @@ public class ChooseBuildings : MonoBehaviour
             ThisBuilding = BuildingsControl.GetBathHouse();
             ThisBuilding.GetComponent<Outline>().enabled = true;
 
-            ScriptText.text = "You've choose the Bath House." +
-                "\r\n" +
-                "\r\n" +
-                "You've choose the Bath House.";
+            ScriptText.text = "Bathhouse (Thermae or Balneae from Greek) were the bathing facilities. " +
+                "Most Roman cities had at least one such building, which was a centre for bathing and socialising and reading. " +
+                "One crucial function of baths in Roman society was considered a \"branch library\" today. " +
+                "Because the bathing process took such long time, conversations were necessary.";
         }
         else
         {
